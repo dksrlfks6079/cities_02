@@ -11,7 +11,7 @@ ul {
 }
 
 a {
-    color: indigo;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -49,4 +49,134 @@ body {
     display: inline-block;
     line-height: 80px;
     padding: 0 30px;
+}
+
+.container {
+    padding: 40px 0;
+}
+
+.contents {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contents h2 {
+
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contents .img img {
+    margin-bottom: 30px;
+   
+
+}
+
+
+.contents p{
+    margin-bottom: 20px;
+}
+
+.cities {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.cities li {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.cities .text h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+
+}
+
+.cities .photo img {
+    border-radius: 12px;
+} 
+
+.bottom {
+    padding: 40px;
+    border-top: 1px solid #ddd;
+}
+
+.bottom p {
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+}
+
+
+
+
+/* cities_02 */
+
+.cities_02 {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+
+.cities_02 li {
+    width: 300px;
+    }
+
+.cities_02 .text h3 {
+ font-size: 20px;   
+ margin-bottom: 12px;
+ margin-top: 8px;
+}
+
+
+/* cities_03 */
+
+.cities_03 {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cities_03 li {
+    text-align: center;
+}
+
+.cities_03 .photo {
+    background-color: #ddd;
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+    border-radius: 260px;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cities_03 .photo.london {
+    background-image: url(../images/london_b.jpg);
+}
+.cities_03 .photo.paris {
+    background-image: url(../images/paris_b.jpg);
+}
+.cities_03 .photo.tokyo {
+    background-image: url(../images/tokyo_b.jpg);
+}
+
+
+.cities_03 .text {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.cities_03 .text h3 {
+     margin: 8px 0 16px 0;
 }
